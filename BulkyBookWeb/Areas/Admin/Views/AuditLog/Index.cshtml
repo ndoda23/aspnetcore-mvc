@@ -1,0 +1,63 @@
+﻿@using BulkyBook.Utility
+
+<div class="container-fluid py-4">
+    <div class="card border shadow-sm overflow-hidden">
+        <div class="card-header text-white py-3 px-4"
+             style="background: linear-gradient(to right, #065f46, #282828, #191414);">
+            <h5 class="mb-0 fw-bold"><i class="bi bi-journal-text me-2"></i>Audit Log</h5>
+            <p class="mb-0 small" style="color: #1DB954;">Who changed what, and when</p>
+        </div>
+
+        <!-- Filters -->
+        <div class="px-4 pt-4">
+            <div class="row g-2 align-items-end">
+                <div class="col-md-3">
+                    <label class="form-label small fw-semibold text-secondary">Entity</label>
+                    <select id="filterEntity" class="form-select form-select-sm">
+                        <option value="all">All</option>
+                        <option value="@SD.EntityOrder">Order</option>
+                        <option value="@SD.EntityUser">User</option>
+                        <option value="@SD.EntityProduct">Product</option>
+                        <option value="@SD.EntityCategory">Category</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label small fw-semibold text-secondary">From</label>
+                    <input id="filterFrom" type="date" class="form-control form-control-sm" />
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label small fw-semibold text-secondary">To</label>
+                    <input id="filterTo" type="date" class="form-control form-control-sm" />
+                </div>
+                <div class="col-md-3 d-flex gap-2">
+                    <button id="btnApply" class="btn btn-sm btn-success flex-grow-1">
+                        <i class="bi bi-funnel"></i> Apply
+                    </button>
+                    <button id="btnReset" class="btn btn-sm btn-outline-secondary">
+                        <i class="bi bi-arrow-counterclockwise"></i> Reset
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Table -->
+        <div class="card-body">
+            <table id="tblData" class="table" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>User</th>
+                        <th>Action</th>
+                        <th>Entity</th>
+                        <th>Entity Id</th>
+                        <th>Change</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/auditlog.js" asp-append-version="true"></script>
+}
