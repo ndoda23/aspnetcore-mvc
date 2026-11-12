@@ -1,0 +1,12 @@
+C:\Users\nikoloz.dodashvili\source\repos\BulkyBook\BulkyBook.Models\bin\Debug\net10.0\BulkyBook.Models.deps.json
+C:\Users\nikoloz.dodashvili\source\repos\BulkyBook\BulkyBook.Models\bin\Debug\net10.0\BulkyBook.Models.dll
+C:\Users\nikoloz.dodashvili\source\repos\BulkyBook\BulkyBook.Models\bin\Debug\net10.0\BulkyBook.Models.pdb
+C:\Users\nikoloz.dodashvili\source\repos\BulkyBook\BulkyBook.Models\obj\Debug\net10.0\BulkyBook.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikoloz.dodashvili\source\repos\BulkyBook\BulkyBook.Models\obj\Debug\net10.0\BulkyBook.Models.AssemblyInfoInputs.cache
+C:\Users\nikoloz.dodashvili\source\repos\BulkyBook\BulkyBook.Models\obj\Debug\net10.0\BulkyBook.Models.AssemblyInfo.cs
+C:\Users\nikoloz.dodashvili\source\repos\BulkyBook\BulkyBook.Models\obj\Debug\net10.0\BulkyBook.Models.csproj.CoreCompileInputs.cache
+C:\Users\nikoloz.dodashvili\source\repos\BulkyBook\BulkyBook.Models\obj\Debug\net10.0\BulkyBook.Models.dll
+C:\Users\nikoloz.dodashvili\source\repos\BulkyBook\BulkyBook.Models\obj\Debug\net10.0\refint\BulkyBook.Models.dll
+C:\Users\nikoloz.dodashvili\source\repos\BulkyBook\BulkyBook.Models\obj\Debug\net10.0\BulkyBook.Models.pdb
+C:\Users\nikoloz.dodashvili\source\repos\BulkyBook\BulkyBook.Models\obj\Debug\net10.0\ref\BulkyBook.Models.dll
+C:\Users\nikoloz.dodashvili\source\repos\BulkyBook\BulkyBook.Models\obj\Debug\net10.0\BulkyBoo.DEB7B257.Up2Date

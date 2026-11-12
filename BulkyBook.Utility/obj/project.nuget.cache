@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "oy5HBa8sNh0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nikoloz.dodashvili\\source\\repos\\BulkyBook\\BulkyBook.Utility\\BulkyBook.Utility.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nikoloz.dodashvili\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\10.0.14\\microsoft.aspnetcore.cryptography.internal.10.0.14.nupkg.sha512",
+    "C:\\Users\\nikoloz.dodashvili\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\10.0.14\\microsoft.aspnetcore.cryptography.keyderivation.10.0.14.nupkg.sha512",
+    "C:\\Users\\nikoloz.dodashvili\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\10.0.14\\microsoft.aspnetcore.identity.ui.10.0.14.nupkg.sha512",
+    "C:\\Users\\nikoloz.dodashvili\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\10.0.14\\microsoft.extensions.caching.abstractions.10.0.14.nupkg.sha512",
+    "C:\\Users\\nikoloz.dodashvili\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.14\\microsoft.extensions.configuration.10.0.14.nupkg.sha512",
+    "C:\\Users\\nikoloz.dodashvili\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.14\\microsoft.extensions.configuration.abstractions.10.0.14.nupkg.sha512",
+    "C:\\Users\\nikoloz.dodashvili\\.nuget\\packages\\microsoft.extensions.configuration.binder\\10.0.14\\microsoft.extensions.configuration.binder.10.0.14.nupkg.sha512",
+    "C:\\Users\\nikoloz.dodashvili\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.14\\microsoft.extensions.dependencyinjection.10.0.14.nupkg.sha512",
+    "C:\\Users\\nikoloz.dodashvili\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.14\\microsoft.extensions.dependencyinjection.abstractions.10.0.14.nupkg.sha512",
+    "C:\\Users\\nikoloz.dodashvili\\.nuget\\packages\\microsoft.extensions.diagnostics\\10.0.14\\microsoft.extensions.diagnostics.10.0.14.nupkg.sha512",
+    "C:\\Users\\nikoloz.dodashvili\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\10.0.14\\microsoft.extensions.diagnostics.abstractions.10.0.14.nupkg.sha512",
+    "C:\\Users\\nikoloz.dodashvili\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\10.0.14\\microsoft.extensions.fileproviders.abstractions.10.0.14.nupkg.sha512",
+    "C:\\Users\\nikoloz.dodashvili\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\10.0.14\\microsoft.extensions.fileproviders.embedded.10.0.14.nupkg.sha512",
+    "C:\\Users\\nikoloz.dodashvili\\.nuget\\packages\\microsoft.extensions.identity.core\\10.0.14\\microsoft.extensions.identity.core.10.0.14.nupkg.sha512",
+    "C:\\Users\\nikoloz.dodashvili\\.nuget\\packages\\microsoft.extensions.identity.stores\\10.0.14\\microsoft.extensions.identity.stores.10.0.14.nupkg.sha512",
+    "C:\\Users\\nikoloz.dodashvili\\.nuget\\packages\\microsoft.extensions.logging\\10.0.14\\microsoft.extensions.logging.10.0.14.nupkg.sha512",
+    "C:\\Users\\nikoloz.dodashvili\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.14\\microsoft.extensions.logging.abstractions.10.0.14.nupkg.sha512",
+    "C:\\Users\\nikoloz.dodashvili\\.nuget\\packages\\microsoft.extensions.options\\10.0.14\\microsoft.extensions.options.10.0.14.nupkg.sha512",
+    "C:\\Users\\nikoloz.dodashvili\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\10.0.14\\microsoft.extensions.options.configurationextensions.10.0.14.nupkg.sha512",
+    "C:\\Users\\nikoloz.dodashvili\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.14\\microsoft.extensions.primitives.10.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

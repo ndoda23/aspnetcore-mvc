@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "BulkyBook.Utility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "10.0.14"
+        },
+        "runtime": {
+          "BulkyBook.Utility.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Identity.UI/10.0.14": {
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.Identity.UI.dll": {
+            "assemblyVersion": "10.0.14.0",
+            "fileVersion": "10.0.1426.52326"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BulkyBook.Utility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Identity.UI/10.0.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MPmnOqCRDxjwiif0kyhkVe1mMUbId89uLHo2GM1JlKgfSw/KvZigN0qAMhUHPffOlbUqmqv0onuZOkdFriJM6A==",
+      "path": "microsoft.aspnetcore.identity.ui/10.0.14",
+      "hashPath": "microsoft.aspnetcore.identity.ui.10.0.14.nupkg.sha512"
+    }
+  }
+}
