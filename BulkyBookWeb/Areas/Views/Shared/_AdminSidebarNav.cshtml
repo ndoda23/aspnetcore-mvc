@@ -1,0 +1,40 @@
+﻿@using BulkyBook.Utility
+@{
+    var currentController = ViewContext.RouteData.Values["controller"]?.ToString();
+    string Active(string controller) => currentController == controller ? "active" : "";
+}
+
+<div class="admin-sidebar-nav">
+    <p class="nav-section mb-1">Overview</p>
+    <a asp-area="Admin" asp-controller="Dashboard" asp-action="Index"
+       class="nav-link d-flex align-items-center gap-2 @Active("Dashboard")">
+        <i class="bi bi-graph-up"></i> Dashboard
+    </a>
+
+    <p class="nav-section mb-1">Commerce</p>
+    <a asp-area="Admin" asp-controller="Order" asp-action="Index"
+       class="nav-link d-flex align-items-center gap-2 @Active("Order")">
+        <i class="bi bi-truck"></i> Orders
+    </a>
+    <a asp-area="Admin" asp-controller="Product" asp-action="Index"
+       class="nav-link d-flex align-items-center gap-2 @Active("Product")">
+        <i class="bi bi-book"></i> Products
+    </a>
+    <a asp-area="Admin" asp-controller="Category" asp-action="Index"
+       class="nav-link d-flex align-items-center gap-2 @Active("Category")">
+        <i class="bi bi-tags"></i> Categories
+    </a>
+
+    @if (User.IsInRole(SD.RoleAdmin))
+    {
+        <p class="nav-section mb-1">Management</p>
+        <a asp-area="Admin" asp-controller="User" asp-action="Index"
+           class="nav-link d-flex align-items-center gap-2 @Active("User")">
+            <i class="bi bi-people"></i> Users
+        </a>
+        <a asp-area="Admin" asp-controller="AuditLog" asp-action="Index"
+           class="nav-link d-flex align-items-center gap-2 @Active("AuditLog")">
+            <i class="bi bi-journal-text"></i> Audit Log
+        </a>
+    }
+</div>
